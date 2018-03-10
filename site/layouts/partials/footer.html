@@ -1,54 +1,36 @@
-<footer class="bg-black ph3 pv4 white">
-
-	<div class="mw7 center pt3">
-
-		<div class="measure-narrow center mb4">
-
-			<img src="/img/logo.svg" alt="Kaldi logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">Newsletter subscribe</p>
-			<p>Get awesome news from us in your inbox every two weeks. Be the first to learn about new products.</p>
-
-			{{ partial "newsletter-form" . }}
-
-		</div>
-
-		<div class="flex-ns justify-between">
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Kaldi</h3>
-				<ul class="mb3">
-					<li><a href="/" class="link">Home</a></li>
-					<li><a href="/products" class="link">Our products</a></li>
-					<li><a href="/values" class="link">About</a></li>
-					<li><a href="/post" class="link">Blog</a></li>
-					<li><a href="/contact" class="link">Contact</a></li>
+<section class="footer-banner text-center">
+	<div class="overlay">
+		<h2>Ready to relax in Tasmania?</h2>
+		<div class="button"><a href="#" class="btn">Reserve Your Little Peice of Tasmania</a></div>
+	</div>
+</section>
+<footer class="main-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-xs-12">
+				<a href="#" class="logo"><img src="images/logo.png"  alt=""></a>
+			</div>
+			<div class="col-md-8 col-xs-12">
+				<ul class="footer-menu">
+					<li class="current-menu"><a href="index.html">about us</a></li>
+					<li><a href="#awesome">attractions</a></li>
+					<li><a href="#video">rates & facilities</a></li>
+					<li><a href="#app">reviews</a></li>
+					<li><a href="#app">contact us</a></li>
+				</ul>
+				<ul class="footer-menu2">
+					<li><a href="#">Terms</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li>- Copyright Brightwater 2018</li>
 				</ul>
 			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb1 primary">Find out more</h3>
-				<ul class="mb3">
-					<li><a href="/post/jamaica-blue/" class="link">Latest offers</a></li>
-					<li><a href="/contact" class="link">Schedule and appointment</a></li>
-				</ul>
-			</div>
-
-			<div>
-				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
-				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-twitter") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-instagram") }}
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-vimeo") }}
-				</ul>
-			</div>
-
 		</div>
 	</div>
-
 </footer>
-
-{{ partial "svg" . }}
+<script src="/javascript/jquery.js" type="text/javascript"></script>
+<script src="/javascript/bootstrap.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/javascript/jquery.viewbox.min.js"></script>
+<script src="/javascript/custom.js" type="text/javascript"></script>
 
 <script src="/app.js"></script>
 

@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en">
   {{ partial "head" . }}
-  <body class="sans-serif">
-    {{ partial "nav" . }}
+  <body class="sans-serif {{ if .Params.class }}{{ .Params.class }}{{ end }}">
     {{ block "main" . }}{{ end }} 
     {{ partial "footer" . }} 
   </body>

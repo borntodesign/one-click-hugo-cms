@@ -1,0 +1,331 @@
+@media (max-width: 1199px) {
+  .slider .container {
+    padding-left: 95px;
+  }
+
+  .main-header .navbar-nav > li {
+    padding: 6px;
+  }
+
+  .main-header .navbar-nav > li > a {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+
+  .rates-service .service .overlay h3 {
+    font-size: 29px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+
+  .navbar-nav > li {
+    float: none;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in {
+    display: block !important;
+  }
+
+  .main-header .navbar-right {
+    padding-top: 0;
+    background: #09424F;
+  }
+
+  .navbar-default .navbar-toggle:focus,
+  .navbar-default .navbar-toggle:hover {
+    background-color: #09424F;
+  }
+
+  .navbar-default .navbar-toggle {
+    border-color: #fff;
+  }
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+  }
+
+  .navbar-toggle {
+    margin-top: 52px;
+  }
+
+  .welcome .content-right h3 {
+    margin-top: 30px;
+  }
+
+  .hidden991 {
+    display: none;
+  }
+
+  .attractions .borders .border {
+    width: 49.5%;
+  }
+
+  .main-footer {
+    text-align: center;
+  }
+
+  .main-footer .footer-menu {
+    padding-top: 0;
+  }
+
+  .main-footer ul {
+    text-align: center;
+  }
+
+  .facilities {
+    padding-bottom: 100px;
+  }
+
+  .facilities #myCarousel2 {
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .contact-map .contact-button a {
+    font-size: 14px;
+  }
+
+  .rates-service .service-wraper .col-sm-6 {
+    margin-bottom: 30px;
+  }
+
+  .rates-service .facilitie-list {
+    padding-top: 0;
+  }
+
+  .rates .table > tbody > tr > td,
+  .rates .table > tbody > tr > th,
+  .rates .table > tfoot > tr > td,
+  .rates .table > tfoot > tr > th,
+  .rates .table > thead > tr > td,
+  .rates .table > thead > tr > th {
+    padding: 8px;
+  }
+
+  .rates-page .navbar-default .navbar-nav > li > a:focus,
+  .rates-page .navbar-default .navbar-nav > li > a:hover,
+  .rates-page .navbar-default .navbar-nav > li > a {
+    color: #fff;
+  }
+
+  .rates-page .navbar-default .navbar-toggle,
+  .rates-page .navbar-default .navbar-toggle {
+    background-color: #09424F;
+  }
+  .rates-page .main-header li.book-now a {
+    color: #09424F;
+  }
+}
+@media (max-width: 767px) {
+  .attractions .content-wraper {
+    top: 0 !important;
+  }
+
+  .attractions .content-wraper .col-md-3 {
+    max-width: 320px;
+    margin: 15px auto;
+  }
+
+  .attractions .borders .border,
+  .attractions .borders {
+    display: none;
+  }
+
+  .attractions {
+    padding-bottom: 70px;
+  }
+
+  .slider .item h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .slider .item .overlay {
+    min-height: 850px;
+  }
+
+  .radious {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contact-map .map {
+    position: static;
+    min-height: 450px;
+    width: 100%;
+  }
+
+  .main-header li.book-now {
+    position: static;
+  }
+}
+@media (max-width: 575px) {
+  .slider .item h1 {
+    font-size: 42px;
+  }
+
+  .slider .item h1::before {
+    top: -127px;
+  }
+
+  .slider .item .overlay {
+    min-height: 734px;
+    padding-top: 171px;
+  }
+
+  .slider .container-custom {
+    position: absolute;
+    bottom: 16%;
+  }
+
+  .section-heading p::before {
+    display: none;
+  }
+
+  .main-footer ul > li > a {
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1;
+  }
+
+  .main-footer ul > li {
+    padding: 7px;
+  }
+
+  .main-footer .footer-menu {
+    padding-bottom: 20px;
+  }
+
+  .page-banner .overlay .container {
+    min-height: 480px;
+  }
+
+  .rates-service .service {
+    max-width: 262px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 479px) {
+  .navbar-brand > img {
+    width: 174px;
+  }
+
+  .navbar-toggle {
+    margin-top: 36px;
+  }
+
+  .slider .item h1::before {
+    display: none;
+  }
+
+  .slider .container {
+    padding-left: 15px;
+  }
+
+  .slider .item h1 {
+    font-size: 36px;
+  }
+
+  .slider .item p {
+    font-size: 20px;
+  }
+
+  .slider .item .overlay {
+    min-height: 529px;
+    padding-top: 0;
+  }
+
+  .heading p {
+    font-size: 18px;
+  }
+
+  .welcome .img-right .profile {
+    margin-top: -27%;
+    margin-left: -40px;
+    width: 139px;
+  }
+  .welcome .img-right .profile img {
+    max-width: 100%;
+  }
+
+  .welcome .content-right h3 {
+    font-size: 28px;
+  }
+
+  .welcome .content-right .btn {
+    padding: 14px 10px;
+    font-size: 12px;
+  }
+
+  .footer-banner .overlay .button a.btn {
+    padding: 14px 10px;
+    font-size: 9px;
+  }
+
+  .footer-banner .overlay h2 {
+    font-size: 24px;
+  }
+
+  .facilities .contraol {
+    height: 40px;
+    width: 40px;
+    font-size: 24px;
+    top: -60px;
+  }
+
+  .page-banner .banner-heading {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .cancel .content .important {
+    display: none;
+  }
+
+  .cancel .content {
+    margin: 0;
+    padding: 15px;
+  }
+
+  .section-heading {
+    padding-left: 0;
+  }
+}
