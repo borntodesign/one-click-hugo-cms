@@ -12,7 +12,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Rates Page"
         name: "rates"
         fields:
-          - {label: "Class", name: "class", widget: "hidden", default: "page rates-page" }
+          - {label: "Class", name: "class", widget: "hidden", default: "page rates-page"}
           - label: Cancellation
             name: cancellation_entries
             widget: list
