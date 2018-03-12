@@ -172,12 +172,12 @@
     padding-bottom: 70px;
   }
 
-  .slider .item h1 {
+  .slider h1 {
     font-size: 50px;
     margin-bottom: 20px;
   }
 
-  .slider .item .overlay {
+  .slider .overlay {
     min-height: 850px;
   }
 
@@ -197,15 +197,15 @@
   }
 }
 @media (max-width: 575px) {
-  .slider .item h1 {
+  .slider h1 {
     font-size: 42px;
   }
 
-  .slider .item h1::before {
+  .slider h1::before {
     top: -127px;
   }
 
-  .slider .item .overlay {
+  .slider .overlay {
     min-height: 734px;
     padding-top: 171px;
   }
@@ -251,7 +251,7 @@
     margin-top: 36px;
   }
 
-  .slider .item h1::before {
+  .slider h1::before {
     display: none;
   }
 
@@ -259,15 +259,15 @@
     padding-left: 15px;
   }
 
-  .slider .item h1 {
+  .slider h1 {
     font-size: 36px;
   }
 
-  .slider .item p {
+  .slider p {
     font-size: 20px;
   }
 
-  .slider .item .overlay {
+  .slider .overlay {
     min-height: 529px;
     padding-top: 0;
   }

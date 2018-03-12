@@ -1,4 +1,4 @@
 ---
 title: "Reviews"
-class: "page reviews-page"
+class: "page review-page"
 ---
