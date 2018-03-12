@@ -5,7 +5,7 @@ cancellation_entries:
   - description: 'Cancellation within 7 days of check in: No refund'
 rates_entries:
   - description: 2 adults
-    included: 'Breakfast, WiFi, Bathroom complimentaries'
+    included: 'Breakfast, WiFi, Bathroom complementaries'
     price: Aud 180
   - description: Additional person (over 12 years) *
     included: 'Breakfast, WiFi, Bathroom complementaries'
