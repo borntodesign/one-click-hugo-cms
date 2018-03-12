@@ -1,4 +1,5 @@
 ---
+class: "page rates-page"
 cancellation_entries:
   - description: 'Cancellation up to 30 days before check in: 95% refund'
   - description: 'Cancellation between 30 and up to 7 days before check in: 65% refund'
