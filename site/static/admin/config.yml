@@ -8,23 +8,6 @@ collections: # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     files:
-      - file: "site/content/contact/_index.md"
-        label: "Contact Page"
-        name: "contact"
-        fields:
-          - {label: "Class", name: "class", widget: "hidden", default: "page contact-page" }
-          - {label: Title, name: title, widget: string}
-          - {label: Logo, name: logo, widget: image}
-          - label: Contact Entries
-            name: contact_entries
-            widget: list
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
       - file: "site/content/rates/_index.md"
         label: "Rates Page"
         name: "rates"
