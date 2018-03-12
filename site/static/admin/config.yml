@@ -30,6 +30,13 @@ collections: # A list of collections the CMS should be able to edit
         name: "rates"
         fields:
           - {label: "Class", name: "class", widget: "hidden" }
+          - label: Cancellation
+            name: cancellation_entries
+            widget: list
+            fields:
+              - label: Description
+                name: description
+                widget: string
           - label: Rates Entries
             name: rates_entries
             widget: list

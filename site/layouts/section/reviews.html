@@ -3,6 +3,16 @@
 <header class="main-header">
 	{{ partial "nav" . }}
 </header>
+<section class="page-banner" style="background-image: url(/images/about-banner.png)">
+	<div class="overlay">
+		<div class="container" style="position: relative;">
+			<div class="banner-heading">
+				<h2>About Us</h2>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section class="rates">
 	<div class="container">
 		<div class="row">
@@ -25,13 +35,26 @@
 							</tr>
 						</thead>
 						<tbody>
-							{{ range .Params.rates_entries }}
 							<tr>
-								<td class="col-md-4">{{ .description }}</td>
-								<td class="col-md-3">{{ .included }}</td>
-								<td class="col-md-5 text-right">{{ .price }}</td>
+								<td class="col-md-4">2 adults</td>
+								<td class="col-md-3">Breakfast, WiFi, Bathroom complimentaries   </td>
+								<td class="col-md-5 text-right">Aud 180</td>
+							</tr>  
+							<tr>
+								<td class="col-md-4">Additional person (over 12 years) *</td>
+								<td class="col-md-3">Breakfast, WiFi, Bathroom complimentaries</td>
+								<td class="col-md-5 text-right">Aud 20 </td>
+							</tr>
+							<tr>
+								<td class="col-md-4">Child (under 12) </td>
+								<td class="col-md-3">Breakfast, WiFi, Bathroom complimentaries</td>
+								<td class="col-md-5 text-right">Aud 10</td>
+							</tr>
+							<tr>
+								<td class="col-md-4">Infant (under 2)</td>
+								<td class="col-md-3">Breakfast, Bathroom complimentaries, Cot</td>
+								<td class="col-md-5 text-right">FREE</td>
 							</tr> 
-							{{ end }}
 						</tbody>
 					</table>
 				</div>
@@ -45,7 +68,7 @@
 		<div class="row">
 			<div class="col-xs-12 facilitie-list">
 				<div class="content">
-				   <div class="important">IMPORTANT</div>
+					<div class="important">IMPORTANT</div>
 					<div class="cancel-heading">
 						<h2><span>Cancellation policy</span></h2>
 						<p>Full payment at time of booking.</p>
@@ -54,9 +77,9 @@
 					<div class="row">
 						<div class="col-xs-12">
 							<ul>
-								{{ range .Params.cancellation_entries }}
-									<li>{{ .description }}</li>
-								{{ end }}
+								<li><span>Cancellation up to 30 days before check in: <b>95% refund</b></span></li>
+								<li><span>Cancellation between 30 and up to 7 days before check in: <b>65% refund</b></span></li>
+								<li><span>Cancellation within 7 days of check in: <b>No refund</b></span></li>
 							</ul>
 						</div>
 						
@@ -68,43 +91,43 @@
 </section>
 <section class="rates-service space">
 	<div class="container">
-	   <div class="row flex service-wraper">
-		   <div class="col-md-3 col-sm-6 col-ss-6 col-xs-12">
-			   <div class="service">
-				   <div class="overlay">
-					   <h3>Living Room</h3>
-					   
-					   <a class="link zoom" href="/images/room-1.png"><i class="fas fa-plus"></i></a>
-					   
-				   </div>
-			   </div>
-		   </div>
-		   <div class="col-md-3 col-sm-6 col-ss-6 col-xs-12">
-			   <div class="service" style="background-image: url(/images/room-2.png)">
-				   <div class="overlay">
-					   <h3>Bedroom</h3>
-					   <a class="link zoom" href="/images/room-2.png"><i class="fas fa-plus"></i></a>
-					   
-				   </div>
-			   </div>
-		   </div>
-		   <div class="col-md-3 col-sm-6 col-ss-6 col-xs-12">
-			   <div class="service" style="background-image: url(/images/room-3.png)">
-				   <div class="overlay">
-					   <h3>Garden</h3>
-					   <a class="link zoom" href="/images/room-3.png"><i class="fas fa-plus"></i></a>
-				   </div>
-			   </div>
-		   </div>
-		   <div class="col-md-3 col-sm-6 col-ss-6 col-xs-12">
-			   <div class="service" style="background-image: url(/images/room-4.png)">
-				   <div class="overlay">
-					   <h3>Courtyard </h3>
-					   <a class="link zoom" href="/images/room-4.png"><i class="fas fa-plus"></i></a>
-				   </div>
-			   </div>
-		   </div>
-	   </div>
+		<div class="row flex service-wraper">
+			<div class="col-md-3 col-sm-6 col-ss-6 col-xs-12">
+				<div class="service">
+					<div class="overlay">
+						<h3>Living Room</h3>
+						
+						<a class="link zoom" href="/images/room-1.png"><i class="fas fa-plus"></i></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-ss-6 col-xs-12">
+				<div class="service" style="background-image: url(/images/room-2.png)">
+					<div class="overlay">
+						<h3>Bedroom</h3>
+						<a class="link zoom" href="/images/room-2.png"><i class="fas fa-plus"></i></a>
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-ss-6 col-xs-12">
+				<div class="service" style="background-image: url(/images/room-3.png)">
+					<div class="overlay">
+						<h3>Garden</h3>
+						<a class="link zoom" href="/images/room-3.png"><i class="fas fa-plus"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-ss-6 col-xs-12">
+				<div class="service" style="background-image: url(/images/room-4.png)">
+					<div class="overlay">
+						<h3>Courtyard </h3>
+						<a class="link zoom" href="/images/room-4.png"><i class="fas fa-plus"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="row">
 			
 			<div class="col-lg-8 col-md-12 facilitie-list">
