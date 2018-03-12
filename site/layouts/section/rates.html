@@ -25,18 +25,15 @@
 							</tr>
 						</thead>
 						<tbody>
+							{{ range .Params.rates_entries }}
 							<tr>
 								<td class="col-md-4">
-									2 adults
-									{{ range .Params.rates_entries }}
-									He
-										{{ .description }}
-										{{ .Description }}
-									{{ end }}
+									{{ .description }}
 								</td>
-								<td class="col-md-3">Breakfast, WiFi, Bathroom complimentaries   </td>
-								<td class="col-md-5 text-right">Aud 180</td>
-							</tr>  
+								<td class="col-md-3">{{ .included }}</td>
+								<td class="col-md-5 text-right">{{ .price }}</td>
+							</tr> 
+							{{ end }} 
 							<tr>
 								<td class="col-md-4">Additional person (over 12 years) *</td>
 								<td class="col-md-3">Breakfast, WiFi, Bathroom complimentaries</td>
