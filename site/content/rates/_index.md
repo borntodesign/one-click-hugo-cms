@@ -1,4 +1,8 @@
 ---
+cancellation_entries:
+  - description: 'Cancellation up to 30 days before check in: 95% refund'
+  - description: 'Cancellation between 30 and up to 7 days before check in: 65% refund'
+  - description: 'Cancellation within 7 days of check in: No refund'
 rates_entries:
   - description: 2 adults
     included: 'Breakfast, WiFi, Bathroom complimentaries'
