@@ -26,7 +26,14 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td class="col-md-4">2 adults</td>
+								<td class="col-md-4">
+									2 adults
+									{{ range .Params.rates_entries }}
+									He
+										{{ .description }}
+										{{ .Description }}
+									{{ end }}
+								</td>
 								<td class="col-md-3">Breakfast, WiFi, Bathroom complimentaries   </td>
 								<td class="col-md-5 text-right">Aud 180</td>
 							</tr>  
