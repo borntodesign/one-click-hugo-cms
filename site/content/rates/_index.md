@@ -7,7 +7,7 @@ cancellation_entries:
 rates_entries:
   - description: 2 adults
     included: 'Breakfast, WiFi, Bathroom complementaries'
-    price: Aud 180
+    price: Aud 175
   - description: Additional person (over 12 years) *
     included: 'Breakfast, WiFi, Bathroom complementaries'
     price: Aud 20
